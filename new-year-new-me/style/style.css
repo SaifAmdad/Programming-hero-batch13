@@ -6,6 +6,7 @@
   font-size: 16px;
   line-height: 26px;
 }
+/* ----------------------------------------------------------- */
 .btn-org {
   padding: 20px 36px;
   font-size: 20px;
@@ -15,6 +16,34 @@
   border: none;
   border-radius: 8px;
 }
+.btn-blu {
+  padding: 20px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #005fac;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+.btn-wht {
+  padding: 20px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f15b22;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+.btn-blu-wht {
+  padding: 20px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #005fac;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+/* -------------------------------------------------------------------------- */
 .container {
   width: 71%;
   max-width: 1141px;
@@ -26,6 +55,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+/* ----------------------------------------------------------------------- */
 #banner {
   background-image: url("../images/banner/banner1.png");
   height: 808px;
@@ -34,6 +64,23 @@ body {
   display: flex;
   justify-content: end;
 }
+#banner1 {
+  background-image: url("../images/banner/banner2.png");
+  height: 808px;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+#banner2 {
+  background-image: url("../images/banner/banner3.png");
+  height: 808px;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+/* ----------------------------------------------------------------------- */
 .banner-container {
   width: 525px;
   margin: 216px 230px auto auto;
@@ -108,4 +155,101 @@ body {
 
 #my-plan {
   margin-top: 130px;
+}
+#my-plan > h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.my-plan-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.my-plan-card {
+  text-align: center;
+}
+.my-plan-card img {
+  height: 93px;
+  width: 93px;
+}
+.my-plan-card h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+.my-plan-card p {
+  font-size: 25px;
+  color: #737272;
+}
+
+/* banner */
+.banner {
+  margin-top: 130px;
+  background: url("../images/gradient2.png"), url("../images/watch.png");
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+/* ---------------------------------------------------- */
+.banner2 {
+  margin-top: 130px;
+  background: url("../images/gradient1.png"), url("../images/watch.png");
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.banner-content {
+  width: 459px;
+  height: 182px;
+  margin: 59px 64px;
+}
+.banner-content > h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+/* footer */
+footer {
+  margin-top: 130px;
+  background-color: black;
+  color: #ffffff;
+  padding: 130px 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  max-width: 485px;
+}
+.footer-left h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.footer-left p {
+  margin-bottom: 24px;
+}
+.footer-left img {
+  margin-right: 17px;
+}
+.footer-right {
+  max-width: 325px;
+}
+.footer-right h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+.footer-right input {
+  max-width: 325px;
+  padding: 21px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: transparent;
+  color: #737272;
+  border: #737272 1px solid;
 }
